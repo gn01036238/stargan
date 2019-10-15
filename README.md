@@ -6,7 +6,14 @@ This repository provides a PyTorch implementation of [StarGAN](https://arxiv.org
 <p align="center"><img width="100%" src="jpg/main.jpg" /></p>
 
 <br/>
+### 修改點
 
+- solver line 534 : 讀全部改成讀一張
+- data_loader line 77 : CenterCrop去除???
+
+
+
+<br/ >
 ## Paper
 [StarGAN: Unified Generative Adversarial Networks for Multi-Domain Image-to-Image Translation](https://arxiv.org/abs/1711.09020) <br/>
 [Yunjey Choi](https://github.com/yunjey)<sup> 1,2</sup>, [Minje Choi](https://github.com/mjc92)<sup> 1,2</sup>, [Munyoung Kim](https://www.facebook.com/munyoung.kim.1291)<sup> 2,3</sup>, [Jung-Woo Ha](https://www.facebook.com/jungwoo.ha.921)<sup> 2</sup>, [Sung Kim](https://www.cse.ust.hk/~hunkim/)<sup> 2,4</sup>, and [Jaegul Choo](https://sites.google.com/site/jaegulchoo/)<sup> 1,2</sup>    <br/>
